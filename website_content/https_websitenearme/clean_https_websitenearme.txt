@@ -1,522 +1,217 @@
-websitenearme
-https://websitenearme.online
-Your business motto.
-Wed, 09 Aug 2023 20:10:50 +0000
-en
-1.2
-https://websitenearme.online
-https://websitenearme.online
-1
-27
-26
-17
-18
-25
-19
-20
-28
-30
-8
-7
-6
-9
-4
-21
-10
-32
-11
-12
-13
-14
-15
-22
-3
-23
-31
-16
-5
-29
-33
-nav_menu
-2
-nav_menu
-24
-nav_menu
-1
-nav_menu
-https://wordpress.org/?v=6.3
-https://websitenearme.online/wp-content/uploads/2023/07/cropped-animated-gif-head-onlyf-32x32.gif
-| websitenearme
-https://websitenearme.online
-32
-32
-221902303
-https://websitenearme.online/image-1
-Wed, 26 Jul 2023 23:23:38 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-1.jpg
-4
-0
-0
-0
-https://websitenearme.online/image-2
-Wed, 26 Jul 2023 23:23:40 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-2.jpg
-5
-0
-0
-0
-https://websitenearme.online/image-3
-Wed, 26 Jul 2023 23:23:41 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-3.jpg
-6
-0
-0
-0
-https://websitenearme.online/shop-hero
-Sun, 31 Jan 2021 15:41:26 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/shop-hero.jpg
-3711
-0
-0
-0
-https://websitenearme.online/?attachment_id=3911#main
-Fri, 05 Feb 2021 00:30:21 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/shop-logotype.svg
-3911
-3856
-0
-0
-https://websitenearme.online/?attachment_id=3973#main
-Fri, 05 Feb 2021 16:24:25 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/author.jpg
-3973
-3971
-0
-0
-https://websitenearme.online/shape-1
-Fri, 05 Feb 2021 21:45:14 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/shape-1.svg
-4120
-0
-0
-0
-https://websitenearme.online/shape-2
-Fri, 05 Feb 2021 21:45:14 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/shape-2.svg
-4121
-0
-0
-0
-https://websitenearme.online/shape-3
-Fri, 05 Feb 2021 21:45:14 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/shape-3.svg
-4122
-0
-0
-0
-https://websitenearme.online/shape-4
-Fri, 05 Feb 2021 21:45:15 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/shape-4.svg
-4123
-0
-0
-0
-https://websitenearme.online/intro
-Sun, 07 Feb 2021 16:18:03 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/intro.jpg
-4193
-0
-0
-0
-https://websitenearme.online/organic-soap
-Sun, 07 Feb 2021 16:18:04 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/organic-soap.jpg
-4194
-0
-0
-0
-https://websitenearme.online/post-1
-Sun, 07 Feb 2021 16:18:05 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/post-1.jpg
-4195
-0
-0
-0
-https://websitenearme.online/post-2
-Sun, 07 Feb 2021 16:18:05 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/post-2.jpg
-4196
-0
-0
-0
-https://websitenearme.online/post-3
-Sun, 07 Feb 2021 16:18:06 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/post-3.jpg
-4197
-0
-0
-0
-https://websitenearme.online/seasonal-soap
-Sun, 07 Feb 2021 16:18:07 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/seasonal-soap.jpg
-4198
-0
-0
-0
-https://websitenearme.online/soap-bundles
-Sun, 07 Feb 2021 16:18:08 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/soap-bundles.jpg
-4199
-0
-0
-0
-https://websitenearme.online/contact-3/contact-2#main
-Sun, 07 Feb 2021 16:26:07 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/contact.jpg
-4209
-3589
-0
-0
-https://websitenearme.online/header-image
-Sun, 07 Feb 2021 16:36:47 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/header-image.jpg
-4217
-0
-0
-0
-https://websitenearme.online/woocommerce-placeholder-2
-Wed, 10 Feb 2021 15:41:24 +0000
-https://gpsites.co/shop/wp-content/uploads/sites/73/woocommerce-placeholder.png
-4350
-0
-0
-0
-https://websitenearme.online/image-4
-Wed, 26 Jul 2023 23:23:43 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-4.jpg
-7
-0
-0
-0
-https://websitenearme.online/image-5
-Wed, 26 Jul 2023 23:23:44 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-5.jpg
-8
-0
-0
-0
-https://websitenearme.online/image-6
-Wed, 26 Jul 2023 23:23:46 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-6.jpg
-9
-0
-0
-0
-https://websitenearme.online/image-7
-Wed, 26 Jul 2023 23:23:48 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-7.jpg
-10
-0
-0
-0
-https://websitenearme.online/image-8
-Wed, 26 Jul 2023 23:23:49 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/image-8.jpg
-11
-0
-0
-0
-https://websitenearme.online/animated-gif-head-onlyf
-Thu, 27 Jul 2023 01:47:03 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/animated-gif-head-onlyf.gif
-23
-0
-0
-0
-https://websitenearme.online/cropped-animated-gif-head-onlyf-gif
-Thu, 27 Jul 2023 01:48:33 +0000
+Image 1
+Image description
+Image 2
+Image description
+Image 3
+Image description
+shop-hero
+shop-logotype
+author
+shape-1
+shape-2
+shape-3
+shape-4
+intro
+organic-soap
+post-1
+post-2
+post-3
+seasonal-soap
+soap-bundles
+contact
+header-image
+woocommerce-placeholder
+Image 4
+Image description
+Image 5
+Image description
+white car demo page
+white car demo page
+Image 7
+Image description
+Image 8
+Image description
+logo_ai_architect_blue_nonbinary_being
+logo for website near me , blue nonbinary being, made by DALL-E
+cropped-animated-gif-head-onlyf.gif
 https://websitenearme.online/wp-content/uploads/2023/07/cropped-animated-gif-head-onlyf.gif
-24
-0
-0
-0
-https://websitenearme.online/woocommerce-placeholder
-Thu, 27 Jul 2023 02:24:24 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/woocommerce-placeholder.png
-38
-0
-0
-0
-https://websitenearme.online/shop-logotype-2
-Thu, 27 Jul 2023 02:24:40 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/shop-logotype.svg
-4421
-0
-0
-0
-https://websitenearme.online/your-logo
-Thu, 27 Jul 2023 03:04:34 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/your-logo.png
-4434
-0
-0
-0
-https://websitenearme.online/your-logo-placeholder
-Thu, 27 Jul 2023 03:05:09 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/cropped-your-logo.png
-4435
-0
-0
-0
-https://websitenearme.online/your-logo-2
-Thu, 27 Jul 2023 03:06:43 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/your-logo-2.png
-4437
-0
-0
-0
-https://websitenearme.online/your-logo-placeholder-2
-Thu, 27 Jul 2023 03:07:14 +0000
-https://websitenearme.online/wp-content/uploads/2023/07/cropped-your-logo-2.png
-4438
-0
-0
-0
-Thu, 27 Jul 2023 03:50:09 +0000
-4456
-4168
-0
-0
-Thu, 27 Jul 2023 03:50:12 +0000
-4457
-4168
-0
-0
-Thu, 27 Jul 2023 03:50:17 +0000
-4458
-4168
-0
-0
-https://websitenearme.online/illustration-of-a-local-business-modern-design-for-the-web-cute-happy-4k-high-resolution-trending-in-youtube
-Mon, 31 Jul 2023 00:28:10 +0000
-https://websitenearme.online/illustration-of-a-local-business-modern-design-for-the-web-cute-happy-4k-high-resolution-trending-in-youtube
-4521
-0
-0
-0
-https://websitenearme.online/?attachment_id=4522#main
-Mon, 31 Jul 2023 00:28:18 +0000
-https://websitenearme.online/illustration-of-a-local-business-modern-design-for-the-web-cute-happy-4k-high-resolution-trending-in-youtube-2
-4522
-3864
-0
-0
-https://websitenearme.online/illustration-of-a-local-business-modern-design-for-the-web-cute-happy-4k-high-resolution-trending-in-youtube-3
-Mon, 31 Jul 2023 00:28:29 +0000
-https://websitenearme.online/illustration-of-a-local-business-modern-design-for-the-web-cute-happy-4k-high-resolution-trending-in-youtube-3
-4523
-0
-0
-0
-https://websitenearme.online/contact-3/ai-architects-cloud_logo_featured_image_animated_header_footer
-Tue, 01 Aug 2023 20:23:47 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/ai-architects.cloud_logo_featured_image_animated_header_footer.mp4
-4558
-3589
-0
-0
-https://websitenearme.online/logo-350-70-ai-architects-black-wordpress-1
-Tue, 01 Aug 2023 20:37:56 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/logo-350-70-ai-architects-black-wordpress-1.png
-4560
-0
-0
-0
-https://websitenearme.online/excited-business-owner-setting-up-a-website-and-holding-money-bags-high-resolution
-Wed, 02 Aug 2023 00:03:31 +0000
-https://websitenearme.online/excited-business-owner-setting-up-a-website-and-holding-money-bags-high-resolution
-4632
-0
-0
-0
-https://websitenearme.online/excited-business-owner-setting-up-a-website-and-holding-money-bags-high-resolution-2
-Wed, 02 Aug 2023 00:04:01 +0000
-https://websitenearme.online/excited-business-owner-setting-up-a-website-and-holding-money-bags-high-resolution-2
-4633
-0
-0
-0
-https://websitenearme.online/illustration-of-a-modern-commercial-zone-where-lots-of-trading-and-goods-are-taking-place-and-people-are-happy-and-relaxed
-Wed, 02 Aug 2023 00:04:57 +0000
-https://websitenearme.online/illustration-of-a-modern-commercial-zone-where-lots-of-trading-and-goods-are-taking-place-and-people-are-happy-and-relaxed
-4634
-0
-0
-0
-https://websitenearme.online/illustration-of-a-modern-commercial-zone-where-lots-of-trading-and-goods-are-taking-place-and-people-are-happy-and-relaxed-2
-Wed, 02 Aug 2023 00:05:19 +0000
-https://websitenearme.online/illustration-of-a-modern-commercial-zone-where-lots-of-trading-and-goods-are-taking-place-and-people-are-happy-and-relaxed-2
-4635
-0
-0
-0
-https://websitenearme.online/illustration-of-a-modern-commercial-zone-where-lots-of-trading-and-goods-are-taking-place-and-people-are-happy-and-relaxed-3
-Wed, 02 Aug 2023 00:05:59 +0000
-https://websitenearme.online/illustration-of-a-modern-commercial-zone-where-lots-of-trading-and-goods-are-taking-place-and-people-are-happy-and-relaxed-3
-4636
-0
-0
-0
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone
-Wed, 02 Aug 2023 00:06:49 +0000
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone
-4637
-0
-0
-0
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone-2
-Wed, 02 Aug 2023 00:07:07 +0000
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone-2
-4638
-0
-0
-0
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone-3
-Wed, 02 Aug 2023 00:07:19 +0000
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone-3
-4639
-0
-0
-0
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone-4
-Wed, 02 Aug 2023 00:07:27 +0000
-https://websitenearme.online/woman-with-baby-excited-to-find-exactly-what-she-needed-on-her-cell-phone-4
-4640
-0
-0
-0
-https://websitenearme.online/bubbly-chatbot-that-is-helping-customers-with-a-happy-polite-smile-on-its-face-colorful-and-kid-friendly
-Wed, 02 Aug 2023 21:48:55 +0000
-https://websitenearme.online/bubbly-chatbot-that-is-helping-customers-with-a-happy-polite-smile-on-its-face-colorful-and-kid-friendly
-4646
-0
-0
-0
-https://websitenearme.online/bubbly-chatbot-that-is-helping-customers-with-a-happy-polite-smile-on-its-face-colorful-and-kid-friendly-2
-Wed, 02 Aug 2023 21:49:12 +0000
-https://websitenearme.online/bubbly-chatbot-that-is-helping-customers-with-a-happy-polite-smile-on-its-face-colorful-and-kid-friendly-2
-4647
-0
-0
-0
-https://websitenearme.online/bubbly-chatbot-that-is-helping-customers-with-a-happy-polite-smile-on-its-face-colorful-and-kid-friendly-3
-Wed, 02 Aug 2023 21:49:36 +0000
-https://websitenearme.online/bubbly-chatbot-that-is-helping-customers-with-a-happy-polite-smile-on-its-face-colorful-and-kid-friendly-3
-4648
-0
-0
-0
-https://websitenearme.online/?attachment_id=4651#main
-Wed, 02 Aug 2023 22:37:17 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-02-at-4.37.05-PM.png
-4651
-4650
-0
-0
-https://websitenearme.online/?attachment_id=4652#main
-Wed, 02 Aug 2023 22:42:58 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-02-at-4.42.44-PM.png
-4652
-4650
-0
-0
-https://websitenearme.online/?attachment_id=4654#main
-Wed, 02 Aug 2023 22:46:29 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-02-at-4.46.02-PM.png
-4654
-4650
-0
-0
-https://websitenearme.online/?attachment_id=4655#main
-Wed, 02 Aug 2023 22:51:17 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-02-at-4.48.36-PM.png
-4655
-4650
-0
-0
-https://websitenearme.online/?attachment_id=4656#main
-Wed, 02 Aug 2023 22:51:56 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-02-at-4.50.49-PM.png
-4656
-4650
-0
-0
-https://websitenearme.online/?attachment_id=4657#main
-Wed, 02 Aug 2023 22:53:25 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-02-at-4.42.19-PM.png
-4657
-4650
-0
-0
-https://websitenearme.online/steampunk-image-of-a-bot-being-trained-with-data-high-resolution
-Wed, 02 Aug 2023 23:08:18 +0000
-https://websitenearme.online/steampunk-image-of-a-bot-being-trained-with-data-high-resolution
-4659
-0
-0
-0
-https://websitenearme.online/generatepress/website-near-me
-Thu, 27 Jul 2023 02:24:05 +0000
-https://websitenearme.online/generatepress/
-36
-0
-0
-0
-https://websitenearme.online/generatepress-2/website-near-me
-Thu, 17 Sep 2020 20:41:52 +0000
-http://gpsites.co/shop/generatepress/
-3550
-0
-0
-0
-https://websitenearme.online/3595/website-near-me
-Sat, 30 Jan 2021 19:40:08 +0000
-https://gpsites.co/shop/?p=3595
-3595
-0
-5
-0
-https://websitenearme.online/3596/website-near-me
-Sat, 30 Jan 2021 19:40:08 +0000
-https://gpsites.co/shop/?p=3596
-3596
-0
-4
-0
-https://websitenearme.online/3597/website-near-me
-Sat, 30 Jan 2021 19:40:08 +0000
-https://gpsites.co/shop/?p=3597
-3597
-0
-7
-0
-https://websitenearme.online/3598/website-near-me
-Sat, 30 Jan 2021 19:40:08 +0000
-https://gpsites.co/shop/?p=3598
-3598
-0
-2
-0
-https://websitenearme.online/3600/website-near-me
-Sat, 30 Jan 2021 19:40:08 +0000
-https://gpsites.co/shop/?p=3600
-3600
-0
-1
-0
-https://websitenearme.online/gp_elements/footer
-Tue, 02 Feb 2021 23:13:06 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=3856
+woocommerce-placeholder
+shop-logotype
+your logo placeholder
+words saying your logo as a placeholder, black and white
+your logo placeholder
+words saying your logo as a placeholder, black and white
+your logo placeholder
+your logo 2 placeholder, black and white letters
+your logo placeholder
+your logo 2 placeholder, black and white letters
+illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
+illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
+illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
+illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
+illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
+illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
+ai-architects.cloud_logo_featured_image_animated_header_footer
+ai-architects.cloud_logo_featured_image_animated_header_footer
+logo-350-70-ai-architects-black-wordpress (1)
+logo-350-70px-blue-nonbinary-being-ai-architects-black-wordpress
+excited business owner setting up a website and holding money bags, high resolution
+excited business owner setting up a website and holding money bags, high resolution
+excited business owner setting up a website and holding money bags, high resolution
+excited business owner setting up a website and holding money bags, high resolution
+illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
+illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
+illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
+illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
+illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
+illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+woman with baby excited to find exactly what she needed on her cell phone
+bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
+bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
+bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
+bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
+bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
+bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
+chatGPT openAI logo
+chatGPT openAI logo
+open ai chatGPT black and white logo
+open ai chatGPT black and white logo
+open ai chatGPT black and white logo
+open ai chatGPT black and white logo
+open ai chatGPT green and white logo
+open ai chatGPT green and white logo
+open ai chatGPT green and purple logo
+open ai chatGPT green and purple logo
+open ai chatGPT black and white logo
+open ai chatGPT black and white logo
+steampunk image of a bot being trained with data, high resolution
+steampunk image of a bot being trained with data, high resolution
+generatepress
+/* GeneratePress Site CSS */
+/* adds a white border around the entire site on tablet and desktop */
+@media (min-width: 769px) {
+    body {
+        padding: 30px;
+    }
+    
+    .site-footer {
+        margin-top: 30px;
+    }
+}
+
+/* image block drop shadow */
+.photo-shadow img {
+    box-shadow: 10px 10px 0px rgba(237,235,235,0.8);
+}
+
+/* product additional information tabs font styling */
+.woocommerce table.shop_attributes th {
+    font-size: 16px;
+}
+
+.woocommerce table.shop_attributes td p {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+/* BEGIN Hide WooCommerce menu item on specific pages in client site*/
+body.page-id-4472 .menu-bar-item.wc-menu-item,
+body.page-id-4682 .menu-bar-item.wc-menu-item,
+body.page-id-4469 .menu-bar-item.wc-menu-item {
+    display: none;
+}
+/* END Hide WooCommerce menu item on specific pages in client site*/
+
+/* BEGIN hyperlink colors for client site */
+body.page-id-4472 .gb-button,
+body.page-id-4682 .gb-button,
+body.page-id-4469 .gb-button {
+    background-color: #654321; /* Dark brown */
+    color: #FFFFFF; /* White */
+}
+
+body.page-id-4472 .gb-button:hover,
+body.page-id-4682 .gb-button:hover,
+body.page-id-4469 .gb-button:hover {
+    background-color: #7a7676; /* brownish */
+    color: #FFFFFF; /* White */
+}
+
+body.page-id-4472 .gb-button:visited,
+body.page-id-4682 .gb-button:visited,
+body.page-id-4469 .gb-button:visited {
+    background-color: #654321; /* Dark brown */
+    color: #FFFFFF; /* White */
+}
+/* END hyperlink colors for client site */
+
+/* BEGIN Footer hyperlink colors for entire site */
+.site-footer.grid-container a:not(.gb-button) {
+    color: #6b5a5b; /* Regular link color */
+}
+
+.site-footer.grid-container a:not(.gb-button):hover {
+    color: rgba(166,63,78,0.99); /* Hover color */
+}
+
+.site-footer.grid-container a:not(.gb-button):visited {
+    color: black; /* Visited color */
+}
+/* END Footer hyperlink colors for entire site */
+
+
+
+.generate-back-to-top {
+    right: auto;
+    left: 20px;
+}
+
+
+
+/* End GeneratePress Site CSS */
+
+generatepress
+/* adds a white border around the entire site on tablet and desktop */
+
+@media (min-width: 769px) {
+	body {
+		padding: 30px;
+	}
+	
+	.site-footer {
+		margin-top: 30px;
+	}
+}
+
+/* image block drop shadow */
+
+.photo-shadow img {
+	box-shadow: 10px 10px 0px rgba(237,235,235,0.8);
+}
+
+/* product additional information tabs font styling */
+
+.woocommerce table.shop_attributes th {
+	font-size: 16px;
+}
+
+.woocommerce table.shop_attributes td p {
+	padding: 8px 16px;
+	font-size: 16px;
+}
+ 
+ 
+Contact
+ 
+ 
+Footer
 your logo 2 placeholder, black and white letters
 your Company
 Remote workers
@@ -527,113 +222,29 @@ https://ai-architects.cloud
 Privacy Policy
 |
 Terms Of Service
-]]>
-3856
-0
-0
-0
-https://websitenearme.online/gp_elements/author-bio
-Fri, 05 Feb 2021 16:21:12 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=3971
+Author Bio
 ai architect animated gif website near me contact gif
 About Me
 Our website is managed by https://ai-architect.cloud.
-]]>
-3971
-0
-0
-0
-https://websitenearme.online/gp_elements/blog-posts-width
-Fri, 05 Feb 2021 16:26:00 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=3974
-3974
-0
-0
-0
-https://websitenearme.online/gp_elements/block-archive-page-hero
-Wed, 10 Feb 2021 22:22:50 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=4359
+Blog Posts Width
+Archive Page Hero
 Welcome to our tips
 View our latest articles and DIY on websites
 subscribe to our
 newsletter
-]]>
-4359
-0
-0
-0
-https://websitenearme.online/gp_elements/shop-page-hero
-Wed, 10 Feb 2021 22:27:16 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=4360
+Shop Page Hero
 Shop for your AI-driven website solution
-]]>
-4360
-0
-0
-0
-https://websitenearme.online/gp_elements/global-page-hero
-Tue, 27 Apr 2021 19:22:34 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=4376
+Global Page Hero
 Hello World
-]]>
-4376
-0
-0
-0
-https://websitenearme.online/gp_elements/single-posts-hero-new
-Tue, 27 Apr 2021 19:29:26 +0000
-https://gpsites.co/shop/?post_type=gp_elements&p=4377
+Single Posts Hero
 Hello World
 Post date
 Post author name
-]]>
-4377
-0
-0
-0
-https://websitenearme.online/4626/website-near-me
-Tue, 01 Aug 2023 23:50:11 +0000
-https://websitenearme.online/?p=4626
-4626
-0
-3
-0
-https://websitenearme.online/steampunk-image-of-a-bot-being-trained-with-data-high-resolution-2
-Wed, 02 Aug 2023 23:08:31 +0000
-https://websitenearme.online/steampunk-image-of-a-bot-being-trained-with-data-high-resolution-2
-4660
-0
-0
-0
-Wed, 02 Aug 2023 23:09:13 +0000
-4661
-0
-0
-0
-Wed, 02 Aug 2023 23:10:04 +0000
-4662
-0
-0
-0
-https://websitenearme.online/services-client-upload/pexels-photo-2280545#main
-Fri, 04 Aug 2023 16:18:48 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/pexels-photo-2280545.jpeg
-Pexels.com]]>
-4723
-4682
-0
-0
-Pexels.com";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:34:"close up photo of stacked pancakes";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]>
-https://websitenearme.online/services-client-upload/screenshot-2023-08-04-at-10-36-15-am#main
-Fri, 04 Aug 2023 16:39:57 +0000
-https://websitenearme.online/wp-content/uploads/2023/08/Screenshot-2023-08-04-at-10.36.15-AM.png
-4724
-4682
-0
-0
-https://websitenearme.online/privacy-policy
-Wed, 26 Jul 2023 15:59:18 +0000
-https://websitenearme.online/?page_id=3
+steampunk image of a bot being trained with data, high resolution
+steampunk image of a bot being trained with data, high resolution
+pexels-photo-2280545
+Screenshot-2023-08-04-at-10.36.15-AM
+Privacy Policy
 Who we are
 Our website address is: https://websitenearme.online.  This is the demo site for
 https://ai-architects.cloud
@@ -662,28 +273,9 @@ What rights you have over your data
 If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.  We can not guarantee we will be able to do this immediately, however, as it is not a typical request for the purposes of this website or any partner sites.
 Where your data is sent
 Visitor comments may be checked through an automated spam detection service.
-]]>
-3
-0
-0
-0
-https://websitenearme.online/blog
-Wed, 26 Jul 2023 23:23:51 +0000
-https://websitenearme.online/blog/
-13
-0
-0
-0
-https://websitenearme.online/services
-Thu, 27 Jul 2023 02:01:40 +0000
-https://websitenearme.online/?page_id=28
-28
-0
-0
-0
-https://websitenearme.online/
-Thu, 14 Jan 2021 15:10:54 +0000
-http://gpsites.co/shop/?page_id=3575
+Blog
+Services
+Home Demo
 Description about what your business is about.
 Ex: Fast websites, fast!
 HIRE US
@@ -741,48 +333,14 @@ Receive exclusive offers and discounts by joining our email list.
 You can sign up for a newsletter generation subscription.  We use AI to automate newsletter generation, it is highly recommended that you review the content before agreeing to it.  We can also manage sending out the content for you.
 Sign up for our newsletter!
 [RM_Form id='4']
-]]>
-3575
-0
-0
-0
-https://websitenearme.online/shop
-Sat, 30 Jan 2021 18:58:12 +0000
-https://gpsites.co/shop/shop/
-3582
-0
-0
-0
-https://websitenearme.online/cart
-Sat, 30 Jan 2021 18:58:12 +0000
-https://gpsites.co/shop/cart/
+Shop
+Cart
 [woocommerce_cart]
-]]>
-3583
-0
-0
-0
-https://websitenearme.online/checkout
-Sat, 30 Jan 2021 18:58:12 +0000
-https://gpsites.co/shop/checkout/
+Checkout
 [woocommerce_checkout]
-]]>
-3584
-0
-0
-0
-https://websitenearme.online/my-account
-Sat, 30 Jan 2021 18:58:12 +0000
-https://gpsites.co/shop/my-account/
+My account
 [woocommerce_my_account]
-]]>
-3585
-0
-0
-0
-https://websitenearme.online/quick-tips-1
-Sat, 30 Jan 2021 19:30:03 +0000
-https://gpsites.co/shop/?page_id=3587
+Quick Tips
 Subscribe to our
 newsletter
 Our newsletter describes computer scientist/ data scientist perspectives on optimizing your website's usefulness to your business
@@ -835,36 +393,15 @@ Contact Us
 Join our newsletter
 Receive additional information and a chance to be highlighted in our backlinks by joining our newsletter email list.
 [RM_Form id='4']
-]]>
-3587
-0
-0
-0
-https://websitenearme.online/contact-3
-Sat, 30 Jan 2021 19:30:13 +0000
-https://gpsites.co/shop/?page_id=3589
+Contact us
 We will get back to you ASAP
 https://ai-architects.cloud
 help@ai-architects.cloud
 (915)603-2050
 [RM_Form id='1']
-]]>
-3589
-0
-0
-0
-https://websitenearme.online/quick-tips-archives-2
-Sat, 30 Jan 2021 19:30:21 +0000
-https://gpsites.co/shop/?page_id=3591
+Quick Tips Archives
 We can generate this content for you using AI.  We highly suggest you review the content and sign up for recurring subscription to make edits.
-]]>
-3591
-0
-0
-0
-https://websitenearme.online/hire-website-ai-chatbot
-Sat, 30 Jan 2021 19:30:30 +0000
-https://gpsites.co/shop/?page_id=3593
+Hire Us
 Order our services
 Upon receipt of
 payment
@@ -890,35 +427,13 @@ What if you need more help/ guidance?
 We are happy to help you further, in which case we ask you to book an appointment here.  We will send you a list of questions prior to your appointment so that we can both be prepared and make best use of the scheduled time, as these cost $60/hour.
 hire us
 find out more about us
-]]>
-3593
-0
-0
-0
-https://websitenearme.online/submissions
-Thu, 27 Jul 2023 04:38:21 +0000
-https://websitenearme.online/submissions
-4464
-0
-0
-0
-https://websitenearme.online/password-recovery
-Thu, 27 Jul 2023 04:38:21 +0000
-https://websitenearme.online/password-recovery
-4465
-0
-0
-0
-https://websitenearme.online/login
-Thu, 27 Jul 2023 04:38:21 +0000
-https://websitenearme.online/login
-4466
-0
-0
-0
-https://websitenearme.online/contact-us-client-upload
-Thu, 27 Jul 2023 04:56:39 +0000
-https://websitenearme.online/contact-us-client-upload
+Submissions
+[RM_Front_Submissions]
+Password Recovery
+[RM_password_recovery]
+Login
+[RM_Login]
+Contact us -- client-upload
 We are standing by to help
 Anything you want to say to your customers
 Your company name
@@ -931,42 +446,11 @@ We will get back to you with 24 hours
 We will get back to you shortly...
 Anything you want to say to your clients
 [RM_Form id='1']
-]]>
-4469
-0
-0
-0
-https://websitenearme.online/4681/website-near-me
-Thu, 03 Aug 2023 21:25:42 +0000
-https://websitenearme.online/4681/website-near-me
-4681
-0
-1
-0
-https://websitenearme.online/services-client-upload/website-near-me
-Thu, 03 Aug 2023 21:34:14 +0000
-https://websitenearme.online/?p=4683
-4683
-0
-2
-0
-https://websitenearme.online/contact-us-client-upload/website-near-me
-Thu, 03 Aug 2023 21:34:14 +0000
-https://websitenearme.online/?p=4684
-4684
-0
-3
-0
-https://websitenearme.online/home-demo-client-upload/website-near-me
-Thu, 03 Aug 2023 21:35:04 +0000
-https://websitenearme.online/?p=4685
-4685
-0
-6
-0
-https://websitenearme.online/?page_id=12
-Wed, 26 Jul 2023 23:23:51 +0000
-https://websitenearme.online/home/
+Home Demo — client-upload
+Services — client-upload
+Contact us — client-upload
+Home Demo — client-upload
+Home
 Some of our Favorite Cars, from Classics to Modern
 Join our Club
 Since 1944
@@ -979,26 +463,12 @@ Where To Find Us
 You can catch us all at a local "car nights" every week at a new designated location each month!
 Keeping motoring history alive
 Join our Club
-]]>
-12
-0
-0
-0
-https://websitenearme.online/website-near-me-tips/website-near-me
-Wed, 26 Jul 2023 23:23:51 +0000
-https://websitenearme.online/blog-post-title/
+Helpful Tips to Rank Higher in Website Near Me Searches
 We can generate this type of content for you using AI.
 What goes into a blog post? Helpful, industry-specific content that: 1) gives readers a useful takeaway, and 2) shows you’re an industry expert.
 Use your company’s blog posts to opine on current industry topics, humanize your company, and show how your products and services can help people.
 logo for website near me , blue nonbinary being, made by DALL-E
-]]>
-14
-0
-0
-0
-https://websitenearme.online/?page_id=15
-Wed, 26 Jul 2023 23:23:51 +0000
-https://websitenearme.online/contact/
+Contact
 Gear Collective
 123 Example Rd
 Scottsdale, AZ 85260
@@ -1007,14 +477,8 @@ Office Phone
 Contact
 email@example.com
 (555) 555-5555
-]]>
-15
-0
-0
-0
-https://websitenearme.online/product/organic-bar-soap
-Thu, 04 Feb 2021 18:49:27 +0000
-https://gpsites.co/shop/?post_type=product&p=3864
+Website
+[caption id="attachment_4522" align="alignnone" width="300"]
 illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube[/caption]
 
 Introducing ai-architects' website, the cutting-edge website solution powered by AI tools, designed to revolutionize your online presence. With its innovative automation features, [Product Name] ensures top-notch SEO, dynamic content generation, and lightning-fast speed on cell phones. Elevate your digital experience today!
@@ -1039,30 +503,13 @@ Key Features:
 
 Unlock the true potential of your website with [Product Name]. Experience the power of AI-driven automation, unparalleled SEO, and mobile speed that sets new industry standards. Take the leap into the future of web development today!
 
-]]>
-3864
-0
-0
-0
-1
-https://websitenearme.online
-0
-1
-https://websitenearme.online/website-near-me-1/website-near-me
-Mon, 01 Feb 2021 04:00:41 +0000
-https://gpsites.co/shop/?p=3957
+
+Weekly blog updates help SEO.
 Because we are using AI, this means very affordable for you.
 You can sign up for our subscripton service and we will autogenerate content for you so your site continues to rank.
 If the google algorithms begin detecting AI content and penalizing websites, we will immediately let you know because it will also affect our websites.  At that point, we would need to update our contract terms, if it will require a human to oversee the content.  It is not likely AI will be used to autodetect AI produced content soon, because AI is becoming better at human-like content generation daily.
 Our images also fill in your image alt tags and descriptions, which also help with SEO.
-]]>
-3957
-0
-0
-0
-https://websitenearme.online/website-near-me-2/website-near-me
-Mon, 01 Feb 2021 08:00:54 +0000
-https://gpsites.co/shop/?p=4164
+Topics generated by AI, chatGPT
 Our advice blah blah blah
 Seasonal Car Maintenance Tips:
 Write blog posts about seasonal maintenance routines and what car owners should do to prepare their vehicles for different weather conditions. For example, "Essential Winter Car Maintenance Tips" or "Getting Your Car Ready for Summer Road Trips."
@@ -1086,14 +533,6 @@ New Car Technology and Its Impact on Maintenance:
 Discuss how advancements in car technology affect maintenance requirements and how drivers can adapt to these changes.
 We use AI to autogenerate topics plus content.
 More images and such generated by chatGPT.
-]]>
-4164
-0
-0
-0
-https://websitenearme.online/website-near-me-tips-2/website-near-me
-Mon, 01 Feb 2021 12:00:50 +0000
-https://gpsites.co/shop/?p=4168
 Planning can save you time and materials.
 This is an example of AI Generated content using chatGPT:
 1. Park your car on level ground:
@@ -1107,35 +546,40 @@ Push the dipstick all the way back into its tube until it's seated properly.
 All the following pictures are generated by AI.  They can be made to look more realistic, these are just examples.
 Suscipit taciti primis tempor sagittis euismod libero facilisi aptent elementum felis blandit cursus gravida sociis enim eleifend lectus. Nullam dapibus netus feugiat curae curabitur curae fringilla porttitor quam iaculis aptent leo ligula euismod dictumst penatibus mauris eros etiam praesent volutpat posuere. Metus fringilla ullamcorper odio aliquam lacinia conubia mauris tempor etiam ultricies proin sollicitudin quisque lectus sociis mattis tristique integer.
 Pretium lorem primis senectus habitasse lectus scelerisque donec ultricies tortor adipiscing fusce morbi volutpat pellentesque consectetur risus molestie curae malesuada. Dignissim lacus convallis massa mauris enim mattis magnis senectus montes mollis taciti phasellus accumsan bibendum semper blandit suspendisse faucibus nibh metus lobortis morbi cras magna vivamus per risus fermentum. Dapibus imperdiet praesent magnis parturient.
-]]>
-4168
-0
-0
-0
-https://websitenearme.online/product/chatbot
-Sun, 07 Feb 2021 17:31:02 +0000
-https://gpsites.co/shop/?post_type=product&p=4268
-4268
-0
-0
-0
-https://websitenearme.online/product/soap-bundles
-Sun, 07 Feb 2021 17:31:33 +0000
-https://gpsites.co/shop/?post_type=product&p=4269
-4269
-0
-0
-0
-https://websitenearme.online/wp-global-styles-generatepress/website-near-me
-Tue, 26 Apr 2022 17:42:14 +0000
-https://gpsites.co/shop/wp-global-styles-generatepress/
-4413
-0
-0
-0
-https://websitenearme.online/home-demo-client-upload
-Thu, 27 Jul 2023 05:33:24 +0000
-https://websitenearme.online/home-demo-client-upload
+Intelligent Chatbots
+Empowering Local Businesses with AI-Boosted Intelligent Chatbots
+
+Product Description:
+Our AI-Boosted Websites are the ultimate solution for local business owners who aspire to compete with larger corporations and tech companies that leverage AI technology. By combining the power of cutting-edge AI and user-friendly web development, we provide an affordable and efficient way to enhance your online presence.
+
+Key Features:
+
+Intelligent Chatbot Integration: Stand out from the competition with an integrated AI-powered chatbot. Engage your website visitors in real-time, answer their questions, and provide personalized assistance 24/7.
+
+Tailored for Local Businesses: Our websites are designed to cater specifically to the needs of local businesses, helping you connect with your community and attract more customers.
+
+Seamless User Experience: Enjoy a user-friendly interface and intuitive navigation. Your customers will find it easy to interact with your website and access the information they need.
+
+Mobile Responsive: Reach customers on the go with mobile-responsive design. Your website will look stunning and function flawlessly across all devices, including smartphones and tablets.
+
+AI Optimization: Leverage AI technology to optimize your website for search engines, driving more organic traffic and improving your online visibility.
+
+Quick Turnaround: We understand the urgency of getting your business online promptly. Our efficient processes ensure fast delivery without compromising on quality.
+
+Expert Support: Our team of web development and AI specialists is at your service, providing guidance, support, and answering any questions you may have.
+
+Empower your local business with the cutting-edge technology that was once exclusive to larger corporations and tech giants. With our AI-Boosted Websites and integrated chatbot feature, you can enhance customer engagement, streamline operations, and stay ahead in the digital age. Embrace the power of AI and unlock new opportunities for your business today!
+Website + Trained Chatbot
+We build your AI-powered, AI-SEO-driven website for $500.
+We add a chatbot for $100 + $30/month to access your openAI (chatGPT) key.
+We train your chatbot 1 time, which covers the majority of likely questions users will have after visiting your website.
+
+Your website will have a landing page, contact us page, and products page.
+
+If you want other things on your page (such as a shopping cart, content, etc, please book an appt with us at $60/1 hour so we can answer your questions).  Prior to the appointment, we will send you a list of questions so that we are both prepared to make best use of the 1 hour.  Depending on volume of sales and your specific requests, we reserve the right to kindly refuse projects.
+Custom Styles
+{"version": 2, "isGlobalStylesUserThemeJSON": true }
+Home Demo -- client-upload
 HIRE US
 main product/service 1
 main product/service 2
@@ -1154,14 +598,7 @@ Receive exclusive offers and discounts by joining our email list.
 You can sign up for a newsletter generation subscription.  We use AI to automate newsletter generation, it is highly recommended that you review the content before agreeing to it.  We can also manage sending out the content for you.
 Sign up for our newsletter
 [RM_Form id='4']
-]]>
-4472
-0
-0
-0
-https://websitenearme.online/seo-empowers-businesses-websites-using-ai/website-near-me
-Sun, 30 Jul 2023 23:35:46 +0000
-https://websitenearme.online/?p=4510
+SEO Empowers Small Businesses Using AI
 In the age of artificial intelligence (AI), small businesses are constantly seeking innovative ways to stay ahead of the competition and unlock success. One powerful tool that has been revolutionizing the digital landscape is search engine optimization (SEO). By cracking the code and harnessing the potential of SEO, small businesses can catapult themselves to new heights in the AI era. In this article, we will explore how SEO can skyrockets small businesses and serve as the secret sauce for their success.
 "Cracking the Code: How SEO Skyrockets Small Businesses in the AI Era!"
 In the vast digital realm, small businesses often struggle to gain visibility amidst the giants. However, with the advent of AI, search engines have become more intelligent, making SEO an essential ingredient for success. SEO helps small businesses crack the code by optimizing their websites to rank higher in search engine results. By understanding and implementing the latest SEO techniques, businesses can attract a larger audience, increase brand visibility, and drive more organic traffic to their websites. This enables them to compete on a level playing field with larger corporations, giving them an edge in the AI era.
@@ -1171,32 +608,11 @@ In the AI age, where consumers are bombarded with information, standing out from
 Moreover, SEO offers an opportunity for small businesses to build their brand authority and reputation. By consistently delivering valuable content and optimizing it for search engines, businesses can establish themselves as industry leaders. When customers see a small business consistently appearing in search results and providing valuable information, they are more likely to trust and choose that business over its competitors. This not only enhances brand credibility but also fosters long-term customer loyalty and advocacy.
 As the AI era continues to evolve, small businesses must adapt and leverage the power of SEO to unlock their full potential. By cracking the code and understanding the importance of SEO in the digital landscape, small businesses can skyrocket their success and compete with larger corporations. The secret sauce of SEO empowers them to be more visible, reach their target audience, and build a strong online presence. So, embrace the power of SEO in the AI era and watch your small business thrive like never before!
 There is no one answer to the question of how AI and SEO interact. Rather, it depends on the specific context and situation. In some cases, AI can help improve SEO by providing better insights into organic search traffic and how to improve the ranking of a website on search engines. Conversely, AI can also help improve SEO by automating the process of finding and analyzing data about a website's performance on search engines.
-]]>
-4510
-0
-0
-0
-https://websitenearme.online/newsletter-subscription
-Tue, 01 Aug 2023 23:35:43 +0000
-https://websitenearme.online/?page_id=4612
+Newsletter subscription
 Subscribe to receive insider tips on advantages of using AI for your business' online presence and more!
 [RM_Form id='4']
-]]>
-4612
-0
-0
-0
-https://websitenearme.online/main-menu/website-near-me
-Tue, 01 Aug 2023 23:42:19 +0000
-https://websitenearme.online/main-menu/website-near-me
-]]>
-4618
-0
-0
-0
-https://websitenearme.online/refunds-returns
-Wed, 02 Aug 2023 00:25:56 +0000
-https://websitenearme.online/?page_id=4641
+Main Menu
+Refunds & Returns/ Terms of Service
 Welcome to
 ai-architects.cloud
 ' web design,
@@ -1214,33 +630,21 @@ Search Ranking Tools: While we don't actively monitor your search result ranking
 Future Considerations: At the moment, social media options are not available, but we are open to introducing them based on the demand from our valued clients.
 Additional Projects: For unique requests not covered in the structured items, we are happy to explore possibilities and undertake projects at our discretion. Our focus on automation allows us to pass on cost savings to our clients.
 We are dedicated to help in bringing more $$ to your business and bringing your vision to life. Experience a website development journey like never before, and let us help you create a digital masterpiece that leaves a lasting impression.
-]]>
-4641
-0
-0
-0
-https://websitenearme.online/product/chatbot-openai-subscription
-Wed, 02 Aug 2023 22:39:16 +0000
-https://websitenearme.online/?post_type=product&p=4650
-OpenAI (chatGPT) keys to use the intelligent chatbot.
-Please feel free to contact us with questions!
-Standard fee by openAI[contact-form][contact-field label="Name" type="name"  required="true" /][contact-field label="Email" type="email" required="true" /][contact-field label="Website" type="url" /][contact-field label="Message" type="textarea" /][/contact-form]]]>
-4650
-0
-0
-0
-https://websitenearme.online/product/train-your-chatbot-1-round
-Wed, 02 Aug 2023 23:11:18 +0000
-https://websitenearme.online/?post_type=product&p=4658
-Please feel free to reach out with questions specific to training your chatbot.
-[contact-form][contact-field label="Name" type="name"  required="true" /][contact-field label="Email" type="email" required="true" /][contact-field label="Website" type="url" /][contact-field label="Message" type="textarea" /][/contact-form]]]>
-4658
-0
-0
-0
-https://websitenearme.online/services-client-upload
-Thu, 03 Aug 2023 21:32:42 +0000
-https://websitenearme.online/services-client-upload
+chatbot openAI subscription
+The 1 time $30 fee is the initial setup fee.
+You will then need to pay a monthly recurring fee starting in month 2, to openAI (we help set this up for you).  You can begin using your chatbot in month 1.
+This is a necessary monthly recurring subscription to have access to your chatGPT openAI key so your chatbot is able to answer client questions online.
+Your chatbot will only work if it is using the LLMs available through openAI, so this is necessary in order to build your chatbot(s).
+If you have multiple chatbots for 1 website, you only need 1 monthly subscription.
+If you have heavy use of your chatbot, you likely will need to increase the amount allotted per month. Heavy use is something like 5k questions in 1 month, however the specifics are outlined in the openAI website.
+If you notice your chatbot erring out, please reach out immediately so we can help you adjust your allotted monthly amount through openAI.
+Train Your Chatbot- 1 round
+We use AI to generate likely questions customers will have about your product.  You then answer these questions for us, and we use it to train the chatbot so that the chatbot knows how to answer them when it is asked on your website. 
+Our recommendation is that you train your chatbot for 1 round, then include this information in your website, as it is a set of questions that the AI extracts from your content that is not clear based on your website.  This will reduce the need for much more training initially.  This will also possibly cut back on costs associated with repeatedly running the same questions through your openAI account.
+This is not a mandatory product when you purchase a chatbot, but we do highly recommend using this strategy because data is the new gold.
+We can set your customer's questions, submitted via your chatbot, to be recorded, so you can begin compiling data that is relevant to your particular store and customer base. 
+Having this data is valuable for understanding your customer needs as well as updating info that may be lacking as time progresses.  You always have access to view your own data.  For a small fee, we can send you instructions on how to retrieve your data safely.
+Services -- client-upload
 Our Services
 You can list up to 5 services/products categories and 2 images
 .
@@ -1269,21 +673,8 @@ Service 5 text
 The drinks menu at the Mexicana restaurant is ...
 Ensalada $2.99/each
 Mariscos $10.00/each
-]]>
-4682
-0
-0
-0
-https://websitenearme.online/?page_id=4719
-Fri, 04 Aug 2023 16:05:35 +0000
-https://websitenearme.online/?page_id=4719
-4719
-0
-0
-0
-https://websitenearme.online/main-content/website-near-me
-Mon, 07 Aug 2023 20:32:49 +0000
-https://websitenearme.online/?p=4871
+Services Layout Option 1
+Main Content
 Skip to content
 Description about what your business is about.
 Ex: Fast websites, fast!
@@ -1382,10 +773,3 @@ We will get back to you ASAP
 https://ai-architects.cloud
 help@ai-architects.cloud
 (915)603-2050
-]]>
-4871
-0
-0
-0
-AI is here.  ai-architects.cloud
-]]>

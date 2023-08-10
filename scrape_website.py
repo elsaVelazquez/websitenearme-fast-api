@@ -75,11 +75,11 @@ def get_file_identifier_from_url(url):
     return domain.split('.')[0]
 
 def make_content_file(url):
-    NAME_SPACE = get_namespace_from_url(url)
-    FILE_IDENTIFIER = get_file_identifier_from_url(url)
+    name_space = get_namespace_from_url(url)
+    file_identifier = get_file_identifier_from_url(url)
     exclusions = ["excluded_domain1.com", "excluded_domain2.com"]
 
-    xml_file_name = find_xml_file(FILE_IDENTIFIER)
+    xml_file_name = find_xml_file(file_identifier)
     xml_file_path = xml_file_name
 
     if not os.path.exists(xml_file_path):
@@ -88,24 +88,10 @@ def make_content_file(url):
         print(f"File {xml_file_path} not found!")
 
     content = parse_xml(xml_file_path, exclusions)
-    content_file_path = save_content_to_file(content, NAME_SPACE)
-    return NAME_SPACE, FILE_IDENTIFIER, content_file_path
+    content_file_path = save_content_to_file(content, name_space)
+    return name_space, file_identifier, xml_file_name, content_file_path
 
 
 if __name__ == "__main__":
-    url = 'https://websitenearme.online'
-    NAME_SPACE, FILE_IDENTIFIER, content_file_path = make_content_file(url)
-    # NAME_SPACE = get_namespace_from_url(url)
-    # FILE_IDENTIFIER = get_file_identifier_from_url(url)
-    # exclusions = ["excluded_domain1.com", "excluded_domain2.com"]
+    name_space, xml_file_path, xml_file_name, content_file_path = make_content_file(url)
 
-    # xml_file_name = find_xml_file(FILE_IDENTIFIER)
-    # xml_file_path = xml_file_name
-
-    # if not os.path.exists(xml_file_path):
-    #     # Do not raise error, it will crash whole instance
-    #     # instead just print a statement for now
-    #     print(f"File {xml_file_path} not found!")
-
-    # content = parse_xml(xml_file_path, exclusions)
-    # save_content_to_file(content, NAME_SPACE)
