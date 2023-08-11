@@ -71,15 +71,15 @@ def dict_to_dataframe(data: dict) -> pd.DataFrame:
 
     # Create a DataFrame
     df = pd.DataFrame({
-        'Tokens': tokens_list,
         'Score': score_list,
-        'ID': id_list
+        'ID': id_list,
+        'Tokens': tokens_list
     })
+    df_sorted = df.sort_values(by='Score', ascending=False, ignore_index=True)
+    return df_sorted
 
-    return df
 
-
-def test_search(query_sentence: str, search_type: str, model, index) -> None:
+def test_search(query_sentence: str, search_type: str, model, index, namespace:str) -> None:
     """
     Perform the search test based on the given search type.
 
@@ -92,21 +92,30 @@ def test_search(query_sentence: str, search_type: str, model, index) -> None:
     Returns:
     - None (prints out the results).
     """
+    top_k_to_list = 15
     # Encode the query sentence
     xq = model.encode(query_sentence).tolist()
 
     # Get the data from Pinecone
-    result = index.query(xq, top_k=7, includeMetadata=True, namespace="https_websitenearme")
+    result = index.query(xq, top_k=top_k_to_list, includeMetadata=True, namespace=namespace)
 
     # Display results
-    print("The row is enumerating the top_k=3 value")
+    print(f"The row is enumerating the top_k={top_k_to_list} values")
     print(f"Query Sentence: {query_sentence}\n")
     print("Results:\n")
     df = dict_to_dataframe(result)
-    print(df)
+    left_aligned_df = df.style.set_properties(**{'text-align': 'left'})
+    print(left_aligned_df.to_string())
 
 # Test the KEYWORD search
-test_search("prices", "KEYWORD", model, index)
+test_search("prices", "KEYWORD", model, index, "https_websitenearme")
 
 # Test the SEMANTIC search
-test_search("what are your prices", "SEMANTIC", model, index)
+test_search("what are your prices", "SEMANTIC", model, index, "https_websitenearme")
+
+# # test all namespaces
+# # Test the KEYWORD search
+# test_search("prompt engineer", "KEYWORD", model, index, "https_ai-architects") #https_ai-architects")
+
+# # Test the SEMANTIC search
+# test_search("what do you do?", "SEMANTIC", model, index, "https_ai-architects") #https_ai-architects")

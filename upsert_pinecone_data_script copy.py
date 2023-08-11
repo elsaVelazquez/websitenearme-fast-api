@@ -11,16 +11,16 @@ from typing import List, Tuple, Dict, Any
 import requests
 from requests.packages.urllib3.util.ssl_ import create_urllib3_context
 
-CIPHERS = (
-    'ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:'
-    'ECDHE+AES:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE+AES:!ECDH+AES:!DH+AES'
-)
+# CIPHERS = (
+#     'ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:'
+#     'ECDHE+AES:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE+AES:!ECDH+AES:!DH+AES'
+# )
 
-requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = CIPHERS
-# Skip the following two lines if they cause errors
-# requests.packages.urllib3.contrib.pyopenssl.DEFAULT_SSL_CIPHER_LIST = CIPHERS
-# requests.packages.urllib3.contrib.pyopenssl.inject_into_urllib3()
-requests.packages.urllib3.util.ssl_.create_default_context = create_urllib3_context
+# requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = CIPHERS
+# # Skip the following two lines if they cause errors
+# # requests.packages.urllib3.contrib.pyopenssl.DEFAULT_SSL_CIPHER_LIST = CIPHERS
+# # requests.packages.urllib3.contrib.pyopenssl.inject_into_urllib3()
+# requests.packages.urllib3.util.ssl_.create_default_context = create_urllib3_context
 
 
 def load_environment() -> None:
@@ -92,6 +92,33 @@ def prepare_data_for_upsert(all_embeddings: List[List[float]], all_tokens: List[
 def upsert_data_to_pinecone(index: Any, dataset: List[Dict[str, Any]], name_space) -> None:
     """Upsert data to Pinecone in batches."""
     # Setting ciphers only once for the entire session.
+    
+    batch_size = 30
+    for i in tqdm(range(0, len(dataset), batch_size)):
+        CIPHERS = (
+            'ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:'
+            'ECDHE+AES:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE+AES:!ECDH+AES:!DH+AES'
+        )
+        requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = CIPHERS
+        requests.packages.urllib3.util.ssl_.create_default_context = create_urllib3_context
+
+        i_end = i + batch_size
+        if i_end > len(dataset):
+            i_end = len(dataset)
+        batch = dataset[i: i_end]
+        print(f"Upserting batch with namespace: {name_space}")
+
+        index.upsert(vectors=batch, namespace=name_space)
+        # Rate limiting
+        time.sleep(60)
+        
+        
+        
+        ##################################
+## this one worked with pdb:
+def upsert_data_to_pinecone(index: Any, dataset: List[Dict[str, Any]], name_space) -> None:
+    """Upsert data to Pinecone in batches."""
+    # Setting ciphers only once for the entire session.
     CIPHERS = (
         'ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:'
         'ECDHE+AES:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE+AES:!ECDH+AES:!DH+AES'
@@ -99,15 +126,51 @@ def upsert_data_to_pinecone(index: Any, dataset: List[Dict[str, Any]], name_spac
     requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = CIPHERS
     requests.packages.urllib3.util.ssl_.create_default_context = create_urllib3_context
 
-    batch_size = 30
+    batch_size = 100
     for i in tqdm(range(0, len(dataset), batch_size)):
         i_end = i + batch_size
         if i_end > len(dataset):
             i_end = len(dataset)
         batch = dataset[i: i_end]
         print(f"Upserting batch with namespace: {name_space}")
-        import pdb; pdb.set_trace()
+
         index.upsert(vectors=batch, namespace=name_space)
+
+import time
+from requests.exceptions import RequestException
+
+def upsert_data_to_pinecone(index: Any, dataset: List[Dict[str, Any]], name_space, max_retries=3, delay=0.5) -> None:
+    """Upsert data to Pinecone in batches."""
+    # Setting ciphers only once for the entire session.
+    CIPHERS = (
+        'ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:'
+        'ECDHE+AES:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE+AES:!ECDH+AES:!DH+AES'
+    )
+    requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = CIPHERS
+    requests.packages.urllib3.util.ssl_.create_default_context = create_urllib3_context
+
+    batch_size = 100
+    for i in tqdm(range(0, len(dataset), batch_size)):
+        i_end = i + batch_size
+        if i_end > len(dataset):
+            i_end = len(dataset)
+        batch = dataset[i: i_end]
+        print(f"Upserting batch with namespace: {name_space}")
+
+        # Retry logic with exponential backoff
+        for retry in range(max_retries):
+            try:
+                index.upsert(vectors=batch, namespace=name_space)
+                break  # Break out of the retry loop if successful
+            except RequestException as e:
+                if retry < max_retries - 1:  # don't delay after the last retry
+                    time.sleep(delay * (2 ** retry))  # Exponential backoff
+                else:
+                    raise e  # If all retries fail, raise the exception
+
+        # Rate limiting
+        time.sleep(delay)
+
 
 
 def create_all_sentences_lst(sentences_file_path: str) -> List[str]:

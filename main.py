@@ -16,7 +16,7 @@ def main():
     Entry point for the script.
     Scrapes a website, cleanses the data, and saves it in a structured directory.
     """
-    url = 'https://websitenearme.online'
+    url = 'https://ai-architects.cloud'
     
     # First, turn the xml file into valid data
     name_space, xml_file_path, xml_file_name, content_file_path = make_content_file(url)
