@@ -70,7 +70,6 @@ def connect_pinecone(INDEX_NAME) -> Any:
     index = pinecone.Index(INDEX_NAME)
     return index
 
-# ... [Your other imports and configurations remain unchanged] ...
 
 def prepare_data_for_upsert(all_embeddings: List[List[float]], all_tokens: List[List[str]], name_space: str) -> Dict[str, Any]:
     """Prepare data for upserting."""
@@ -92,6 +91,8 @@ def prepare_data_for_upsert(all_embeddings: List[List[float]], all_tokens: List[
 def upsert_data_to_pinecone(index: Any, dataset: List[Dict[str, Any]], name_space) -> None:
     """Upsert data to Pinecone in batches."""
     # Setting ciphers only once for the entire session.
+    # However, there are occasional errors when I remove it from the other places in the script
+    # therefore leaving them for sake of reliability of code.
     CIPHERS = (
         'ECDHE+AESGCM:ECDHE+CHACHA20:DHE+AESGCM:DHE+CHACHA20:ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:DH+CHACHA20:'
         'ECDHE+AES:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE+AES:!ECDH+AES:!DH+AES'
@@ -124,6 +125,7 @@ def create_all_sentences_lst(sentences_file_path: str) -> List[str]:
         sentences = file.readlines()
     return [sentence.strip() for sentence in sentences if sentence.strip()]
 
+
 def upsert_to_pinecone(sentences_file_path: str, name_space: str, INDEX_NAME: str) -> None:
     """
     Process the given sentences and upsert them to Pinecone.
@@ -138,109 +140,12 @@ def upsert_to_pinecone(sentences_file_path: str, name_space: str, INDEX_NAME: st
     load_environment()
     configure_requests()
     all_sentences = create_all_sentences_lst(sentences_file_path)
-    # [
-    #     "Fast websites, fast!", "HIRE US", "MAIN PRODUCT/SERVICE 1", "OUR EX1: WEBSITE DESIGN", "",
-    #     # ... [Truncated for brevity] ...
-    # ]
-
     all_embeddings = get_sentence_embeddings(all_sentences)
     all_tokens = get_tokens(all_sentences)
     index = connect_pinecone(INDEX_NAME)
     upserts = prepare_data_for_upsert(all_embeddings, all_tokens, name_space)
 
     upsert_data_to_pinecone(index, upserts['vectors'], name_space)
-
-# I've commented out the "__main__" section since it doesn't have the necessary arguments. 
-# You'll need to call the "upsert_to_pinecone" function with the appropriate arguments to execute the upsert process.
-# if __name__ == "__main__":
-#     upsert_to_pinecone()
-
-
-# def prepare_data_for_upsert(all_embeddings: List[List[float]], all_tokens: List[List[str]]) -> Dict[str, Any]:
-#     """Prepare data for upserting."""
-#     upserts = {'vectors': []}
-#     for i, (embedding, tokens) in enumerate(zip(all_embeddings, all_tokens)):
-#         vector = {
-#             'id': f'{i}',
-#             'metadata': {
-#                 'tokens': tokens,
-#                 'time_stamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-#             },
-#             'values': embedding
-#         }
-#         upserts['vectors'].append(vector)
-#     upserts['namespace'] = 'websitenearme'
-#     return upserts
-
-# def prepare_data_for_upsert(all_embeddings: List[List[float]], all_tokens: List[List[str]], name_space: str) -> Dict[str, Any]:
-#     """Prepare data for upserting."""
-#     upserts = {'vectors': []}
-#     for i, (embedding, tokens) in enumerate(zip(all_embeddings, all_tokens)):
-#         vector = {
-#             'id': f'item_{i}',  # Changed id format to match your example
-#             'metadata': {
-#                 'tokens': tokens,  # Assuming tokens is analogous to 'colors' in your example
-#                 'time_stamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-#             },
-#             'values': embedding
-#         }
-#         upserts['vectors'].append(vector)
-#     upserts['namespace'] = name_space  # Set the namespace programmatically
-#     return upserts
-
-
-# def upsert_data_to_pinecone(index: Any, dataset: List[Dict[str, Any]], name_space) -> None:
-#     """Upsert data to Pinecone in batches."""
-#     batch_size = 100
-#     for i in tqdm(range(0, len(dataset), batch_size)):
-#         i_end = i + batch_size
-#         if i_end > len(dataset):
-#             i_end = len(dataset)
-#         batch = dataset[i: i_end]
-#         print(f"Upserting batch with namespace: {name_space}")
-#         import pdb; pdb.set_trace()
-#         index.upsert(vectors=batch, namespace=name_space)
-        
-# def create_all_sentences_lst(sentences_file_path: str) -> List[str]:
-#     """
-#     Extracts individual sentences or lines from the given file.
-    
-#     Args:
-#     - sentences_file_path: Path to the file containing sentences or lines.
-
-#     Returns:
-#     - List of sentences or lines.
-#     """
-#     with open(sentences_file_path, 'r') as file:
-#         sentences = file.readlines()
-#     return [sentence.strip() for sentence in sentences if sentence.strip()]
-
-    
-# def upsert_to_pinecone(sentences_file_path: str, name_space: str, INDEX_NAME: str) -> None:
-#     """
-#     Process the given sentences and upsert them to Pinecone.
-
-#     Args:
-#     - sentences_file_path: Path to the file containing sentences or lines.
-
-#     Returns:
-#     - None
-#     """
-#     print(f"upserting {name_space} to pinecone")
-#     load_environment()
-#     configure_requests()
-#     all_sentences = create_all_sentences_lst(sentences_file_path)
-#     # [
-#     #     "Fast websites, fast!", "HIRE US", "MAIN PRODUCT/SERVICE 1", "OUR EX1: WEBSITE DESIGN", "",
-#     #     # ... [Truncated for brevity] ...
-#     # ]
-
-#     all_embeddings = get_sentence_embeddings(all_sentences)
-#     all_tokens = get_tokens(all_sentences)
-#     index = connect_pinecone(INDEX_NAME)
-#     upserts = prepare_data_for_upsert(all_embeddings, all_tokens, name_space)
-
-#     upsert_data_to_pinecone(index, upserts['vectors'], name_space)
 
 
 if __name__ == "__main__":
