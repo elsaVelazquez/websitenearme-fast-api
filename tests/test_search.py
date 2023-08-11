@@ -113,9 +113,9 @@ test_search("prices", "KEYWORD", model, index, "https_websitenearme")
 # Test the SEMANTIC search
 test_search("what are your prices", "SEMANTIC", model, index, "https_websitenearme")
 
-# # test all namespaces
-# # Test the KEYWORD search
-# test_search("prompt engineer", "KEYWORD", model, index, "https_ai-architects") #https_ai-architects")
+# # test more namespaces
+# Test the KEYWORD search
+test_search("prompt engineer", "KEYWORD", model, index, "https_ai-architects")
 
-# # Test the SEMANTIC search
-# test_search("what do you do?", "SEMANTIC", model, index, "https_ai-architects") #https_ai-architects")
+# Test the SEMANTIC search
+test_search("what do you do?", "SEMANTIC", model, index, "https_ai-architects")

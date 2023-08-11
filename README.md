@@ -9,7 +9,7 @@ OPENAI_API_KEY, PINECONE_ENV, PINECONE_API_KEY
 # Step 2 - fully automated so only need to run 1 file
 - from a terminal enter:
   ```
-  python3 websitenearme_chatbot.py
+  python3 data_pipeline_driver.py
   ```
 ### Run flask app
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 Get the data from wordpress site using Tools > Export
 
 # Step 3. 
-Convert the raw xml data to text using scrape_website.py 
+Convert the raw xml data to text using xml_content_parser.py 
 
 # Step 4. 
 clean the xml data using data_cleansing.py

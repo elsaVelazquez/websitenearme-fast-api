@@ -1,26 +1,30 @@
 import os
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
+from typing import List, Tuple, Optional
 
 
-def parse_xml(file_path, exclusions):
+def parse_xml(file_path: str, exclusions: List[str]) -> List[str]:
+    """
+    Parse the XML file and extract relevant content.
+
+    :param file_path: Path to the XML file.
+    :param exclusions: List of domains to exclude.
+    :return: List of extracted sentences from the XML content.
+    """
     tree = ET.parse(file_path)
     root = tree.getroot()
 
     all_sentences = []
 
     for item in root.findall('.//item'):
-        # Extract the data from the XML
         link = item.find('link').text
         title = item.find('title').text
         content = item.find('content:encoded', namespaces={'content': 'http://purl.org/rss/1.0/modules/content/'}).text
 
-        # Check for exclusions
-        skip = any(exclusion in link for exclusion in exclusions)
-        if skip:
+        if any(exclusion in link for exclusion in exclusions):
             continue
 
-        # Append to all_sentences only if they are not None
         if title:
             all_sentences.append(title)
         if content:
@@ -29,19 +33,21 @@ def parse_xml(file_path, exclusions):
     return all_sentences
 
 
-def save_content_to_file(content, namespace) -> str:
-    # Define the directory and file paths
+def save_content_to_file(content: List[str], namespace: str) -> str:
+    """
+    Save extracted content to a file.
+
+    :param content: List of sentences to save.
+    :param namespace: Namespace to determine the directory and filename.
+    :return: Path to the saved file.
+    """
     directory = os.path.join('website_content', namespace)
     content_file_path = os.path.join(directory, f'scraped_{namespace}.txt')
 
-    # Check if the directory exists; if not, create it
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    # Convert the list of sentences into a single string
     content_str = "\n".join(content)
-
-    # Write (or overwrite) the content to the file
     with open(content_file_path, 'w') as file:
         file.write(content_str)
 
@@ -49,8 +55,13 @@ def save_content_to_file(content, namespace) -> str:
     return content_file_path
 
 
+def get_namespace_from_url(url: str) -> str:
+    """
+    Extract the namespace from the given URL.
 
-def get_namespace_from_url(url):
+    :param url: The URL to extract namespace from.
+    :return: Namespace in the format scheme_domain.
+    """
     parsed_url = urlparse(url)
     scheme = parsed_url.scheme
     domain = parsed_url.netloc.replace('www.', '')
@@ -59,7 +70,13 @@ def get_namespace_from_url(url):
     return f"{scheme}_{name_part}"
 
 
-def find_xml_file(name_space):
+def find_xml_file(name_space: str) -> str:
+    """
+    Find the XML file that matches the given namespace in the 'raw_data' directory.
+
+    :param name_space: Namespace to search for.
+    :return: Name of the matching XML file.
+    """
     files = os.listdir('raw_data')
     matching_files = [f for f in files if name_space in f and f.endswith('.xml')]
 
@@ -69,19 +86,29 @@ def find_xml_file(name_space):
         raise FileNotFoundError(f"No XML file found for namespace '{name_space}'")
 
 
-def get_file_identifier_from_url(url):
-    """Extract only the domain name from the URL for file searching."""
+def get_file_identifier_from_url(url: str) -> str:
+    """
+    Extract the domain name from the URL.
+
+    :param url: The URL to extract domain name from.
+    :return: Extracted domain name.
+    """
     domain = urlparse(url).netloc.replace('www.', '')
     return domain.split('.')[0]
 
-def make_content_file(url):
+
+def make_content_file(url: str) -> Optional[Tuple[str, str]]:
+    """
+    Process the XML content file and save the extracted content.
+
+    :param url: URL to determine the XML file and namespace.
+    :return: Tuple containing namespace and path to the saved content file.
+    """
     name_space = get_namespace_from_url(url)
     file_identifier = get_file_identifier_from_url(url)
     exclusions = ["excluded_domain1.com", "excluded_domain2.com"]
 
     xml_file_name = find_xml_file(file_identifier)
-
-    # Construct the full path to the XML file using the 'raw_data' directory
     xml_file_path = os.path.join('raw_data', xml_file_name)
 
     if not os.path.exists(xml_file_path):
@@ -93,7 +120,7 @@ def make_content_file(url):
     return name_space, content_file_path
 
 
-
 if __name__ == "__main__":
-    name_space, xml_file_path, xml_file_name, content_file_path = make_content_file(url)
-
+    # Define 'url' before calling the make_content_file function
+    url = "YOUR_URL_HERE"
+    name_space, content_file_path = make_content_file(url)
