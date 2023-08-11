@@ -18,10 +18,11 @@ OPENAI_API_KEY, PINECONE_ENV, PINECONE_API_KEY
 # Step 1. 
 Set up venv:
 ```
-mkdir websitenearme
-cd websitenearme
-source ./webnearme-venv/bin/activate
-git clone https://github.com/data-science-nerds/websitenearme.git
+mkdir websitenearme-fastapi
+cd websitenearme-fastapi
+python3 -m venv webfastapi-venv
+source ./webfastapi-venv/bin/activate
+git clone https://github.com/data-science-nerds/websitenearme-fastapi.git
 pip install -r requirements.txt
 ```
 
