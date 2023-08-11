@@ -8,20 +8,22 @@ OPENAI_API_KEY, PINECONE_ENV, PINECONE_API_KEY
 
 # Step 2 - fully automated so only need to run 1 file
 - from a terminal enter:
-  '''
-  python websitenearme_chatbot.py
-  '''
+  ```
+  python3 websitenearme_chatbot.py
+  ```
 ### Run flask app
 
 
 ## The Workflow:
 # Step 1. 
 Set up venv:
+```
 mkdir websitenearme
 cd websitenearme
 source ./webnearme-venv/bin/activate
 git clone https://github.com/data-science-nerds/websitenearme.git
 pip install -r requirements.txt
+```
 
 
 # Step 2. 
