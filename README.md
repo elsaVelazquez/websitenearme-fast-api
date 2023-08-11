@@ -1,7 +1,7 @@
 # websitenearme
 chatbots using langchain, pinecone, to answer business questions
 ## To run:
-## Run locally without flask app
+### Run locally without flask app
 # Step 1 - add keys to dotenv
 - Create a dotenv and include openAI api key, pinecone api key, and pinecone env:
 OPENAI_API_KEY, PINECONE_ENV, PINECONE_API_KEY
