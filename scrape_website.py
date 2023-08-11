@@ -60,7 +60,7 @@ def get_namespace_from_url(url):
 
 
 def find_xml_file(name_space):
-    files = os.listdir()
+    files = os.listdir('raw_data')
     matching_files = [f for f in files if name_space in f and f.endswith('.xml')]
 
     if matching_files:
@@ -80,16 +80,18 @@ def make_content_file(url):
     exclusions = ["excluded_domain1.com", "excluded_domain2.com"]
 
     xml_file_name = find_xml_file(file_identifier)
-    xml_file_path = xml_file_name
+
+    # Construct the full path to the XML file using the 'raw_data' directory
+    xml_file_path = os.path.join('raw_data', xml_file_name)
 
     if not os.path.exists(xml_file_path):
-        # Do not raise error, it will crash whole instance
-        # instead just print a statement for now
         print(f"File {xml_file_path} not found!")
+        return
 
     content = parse_xml(xml_file_path, exclusions)
     content_file_path = save_content_to_file(content, name_space)
-    return name_space, file_identifier, xml_file_name, content_file_path
+    return name_space, content_file_path
+
 
 
 if __name__ == "__main__":

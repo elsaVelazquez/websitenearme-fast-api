@@ -19,7 +19,7 @@ def main():
     url = 'https://ai-architects.cloud'
     
     # First, turn the xml file into valid data
-    name_space, xml_file_path, xml_file_name, content_file_path = make_content_file(url)
+    name_space, content_file_path = make_content_file(url)
     
     # Create a cleansed file from the scraped content
     cleaned_file_path = create_cleansed_file(content_file_path, PREFIX_CLEAN, WP_TERMS, STOP_WORDS, name_space)
