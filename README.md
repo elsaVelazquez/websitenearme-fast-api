@@ -23,6 +23,7 @@ cd websitenearme-fastapi
 python3 -m venv webfastapi-venv
 source ./webfastapi-venv/bin/activate
 git clone https://github.com/data-science-nerds/websitenearme-fast-api.git
+cd websitenearme-fast-api
 pip install -r requirements.txt
 ```
 
