@@ -1,9 +1,7 @@
 Image 1
 Image description
 Image 2
-Image description
 Image 3
-Image description
 shop-hero
 shop-logotype
 author
@@ -22,197 +20,44 @@ contact
 header-image
 woocommerce-placeholder
 Image 4
-Image description
 Image 5
-Image description
-white car demo page
 white car demo page
 Image 7
-Image description
 Image 8
-Image description
 logo_ai_architect_blue_nonbinary_being
 logo for website near me , blue nonbinary being, made by DALL-E
 cropped-animated-gif-head-onlyf.gif
 https://websitenearme.online/wp-content/uploads/2023/07/cropped-animated-gif-head-onlyf.gif
-woocommerce-placeholder
-shop-logotype
 your logo placeholder
 words saying your logo as a placeholder, black and white
-your logo placeholder
-words saying your logo as a placeholder, black and white
-your logo placeholder
-your logo 2 placeholder, black and white letters
-your logo placeholder
 your logo 2 placeholder, black and white letters
 illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
-ai-architects.cloud_logo_featured_image_animated_header_footer
 ai-architects.cloud_logo_featured_image_animated_header_footer
 logo-350-70-ai-architects-black-wordpress (1)
 logo-350-70px-blue-nonbinary-being-ai-architects-black-wordpress
 excited business owner setting up a website and holding money bags, high resolution
-excited business owner setting up a website and holding money bags, high resolution
-excited business owner setting up a website and holding money bags, high resolution
-excited business owner setting up a website and holding money bags, high resolution
-illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
-illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
-illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
-illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
-illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
 illustration of a modern commercial zone where lots of trading and goods are taking place and people are happy and relaxed
 woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-woman with baby excited to find exactly what she needed on her cell phone
-bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
-bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
-bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
-bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
-bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
 bubbly chatbot that is helping customers with a happy polite smile on its face, colorful and kid friendly
 chatGPT openAI logo
-chatGPT openAI logo
-open ai chatGPT black and white logo
-open ai chatGPT black and white logo
-open ai chatGPT black and white logo
 open ai chatGPT black and white logo
 open ai chatGPT green and white logo
-open ai chatGPT green and white logo
 open ai chatGPT green and purple logo
-open ai chatGPT green and purple logo
-open ai chatGPT black and white logo
-open ai chatGPT black and white logo
-steampunk image of a bot being trained with data, high resolution
 steampunk image of a bot being trained with data, high resolution
 generatepress
-/* GeneratePress Site CSS */
-/* adds a white border around the entire site on tablet and desktop */
-@media (min-width: 769px) {
-    body {
-        padding: 30px;
-    }
-    
-    .site-footer {
-        margin-top: 30px;
-    }
-}
 
-/* image block drop shadow */
-.photo-shadow img {
-    box-shadow: 10px 10px 0px rgba(237,235,235,0.8);
-}
-
-/* product additional information tabs font styling */
-.woocommerce table.shop_attributes th {
-    font-size: 16px;
-}
-
-.woocommerce table.shop_attributes td p {
-    padding: 8px 16px;
-    font-size: 16px;
-}
-
-/* BEGIN Hide WooCommerce menu item on specific pages in client site*/
-body.page-id-4472 .menu-bar-item.wc-menu-item,
-body.page-id-4682 .menu-bar-item.wc-menu-item,
-body.page-id-4469 .menu-bar-item.wc-menu-item {
-    display: none;
-}
-/* END Hide WooCommerce menu item on specific pages in client site*/
-
-/* BEGIN hyperlink colors for client site */
-body.page-id-4472 .gb-button,
-body.page-id-4682 .gb-button,
-body.page-id-4469 .gb-button {
-    background-color: #654321; /* Dark brown */
-    color: #FFFFFF; /* White */
-}
-
-body.page-id-4472 .gb-button:hover,
-body.page-id-4682 .gb-button:hover,
-body.page-id-4469 .gb-button:hover {
-    background-color: #7a7676; /* brownish */
-    color: #FFFFFF; /* White */
-}
-
-body.page-id-4472 .gb-button:visited,
-body.page-id-4682 .gb-button:visited,
-body.page-id-4469 .gb-button:visited {
-    background-color: #654321; /* Dark brown */
-    color: #FFFFFF; /* White */
-}
-/* END hyperlink colors for client site */
-
-/* BEGIN Footer hyperlink colors for entire site */
-.site-footer.grid-container a:not(.gb-button) {
-    color: #6b5a5b; /* Regular link color */
-}
-
-.site-footer.grid-container a:not(.gb-button):hover {
-    color: rgba(166,63,78,0.99); /* Hover color */
-}
-
-.site-footer.grid-container a:not(.gb-button):visited {
-    color: black; /* Visited color */
-}
-/* END Footer hyperlink colors for entire site */
-
-
-
-.generate-back-to-top {
-    right: auto;
-    left: 20px;
-}
-
-
-
-/* End GeneratePress Site CSS */
-
-generatepress
-/* adds a white border around the entire site on tablet and desktop */
-
-@media (min-width: 769px) {
 	body {
 		padding: 30px;
 	}
 	
 	.site-footer {
 		margin-top: 30px;
-	}
-}
-
-/* image block drop shadow */
-
-.photo-shadow img {
 	box-shadow: 10px 10px 0px rgba(237,235,235,0.8);
-}
-
-/* product additional information tabs font styling */
-
-.woocommerce table.shop_attributes th {
 	font-size: 16px;
-}
-
-.woocommerce table.shop_attributes td p {
 	padding: 8px 16px;
-	font-size: 16px;
-}
- 
  
 Contact
- 
- 
 Footer
-your logo 2 placeholder, black and white letters
 your Company
 Remote workers
 El Paso, TX
@@ -237,17 +82,12 @@ Shop for your AI-driven website solution
 Global Page Hero
 Hello World
 Single Posts Hero
-Hello World
 Post date
 Post author name
-steampunk image of a bot being trained with data, high resolution
-steampunk image of a bot being trained with data, high resolution
 pexels-photo-2280545
 Screenshot-2023-08-04-at-10.36.15-AM
-Privacy Policy
 Who we are
 Our website address is: https://websitenearme.online.  This is the demo site for
-https://ai-architects.cloud
 .
 Comments
 When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
@@ -286,7 +126,6 @@ Initial website, same template as this site
 AI-powered SEO initial setup
 $0, included
 multilingual
-$0, included
 chatbot + maintenance
 NOT INCLUDED
 Website design
@@ -342,7 +181,6 @@ My account
 [woocommerce_my_account]
 Quick Tips
 Subscribe to our
-newsletter
 Our newsletter describes computer scientist/ data scientist perspectives on optimizing your website's usefulness to your business
 Why data matters- August 1, 2023
 Quick Tips to Harness the Power of Data for Your Business
@@ -361,7 +199,6 @@ Establish Your Online Presence
 Implement Analytics Tools
 : If you already have a website, consider using analytics tools. These can help you collect data, gain insights, and deliver a personalized customer experience.
 Remember, the world of data might seem complex, but the benefits for your business are immense. Take small steps today and unlock a world of opportunities!
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
 Unlock the Power of Data: Improve Your Business and Delight Your Customers
 Dear Future Subscriber,
 In the ever-evolving business landscape, one factor consistently plays a transformative role: data. You might think that data is a concern for tech giants and large corporations, but it holds equal, if not greater, significance for small businesses like yours.
@@ -382,7 +219,6 @@ The world of data might seem complex, but the rewards it offers are immense. Sta
 Best,
 Elsa Velazquez
 -former Kindergarten teacher and now data scientist/ computer scientist/ software engineer/ artificial intelligence architect
-illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube
 A promise from all of us to you
 We will guide you through the AI revolution with the same tools and discoveries we make for our own business.  We will save you time and maximize your profits the same way we are doing for our own business, at the same time we do it for ourselves.  We support local businesses and believe competition is the secret sauce for innovation, so we want you to have the edge that all the big businesses are indulging in, at a fair price.
 home grown engineers
@@ -392,10 +228,8 @@ Do you have any questions or simply want to say hello?
 Contact Us
 Join our newsletter
 Receive additional information and a chance to be highlighted in our backlinks by joining our newsletter email list.
-[RM_Form id='4']
 Contact us
 We will get back to you ASAP
-https://ai-architects.cloud
 help@ai-architects.cloud
 (915)603-2050
 [RM_Form id='1']
@@ -445,11 +279,9 @@ Send us a message
 We will get back to you with 24 hours
 We will get back to you shortly...
 Anything you want to say to your clients
-[RM_Form id='1']
 Home Demo — client-upload
 Services — client-upload
 Contact us — client-upload
-Home Demo — client-upload
 Home
 Some of our Favorite Cars, from Classics to Modern
 Join our Club
@@ -462,48 +294,30 @@ are always welcome. Rad 'eh?
 Where To Find Us
 You can catch us all at a local "car nights" every week at a new designated location each month!
 Keeping motoring history alive
-Join our Club
 Helpful Tips to Rank Higher in Website Near Me Searches
 We can generate this type of content for you using AI.
 What goes into a blog post? Helpful, industry-specific content that: 1) gives readers a useful takeaway, and 2) shows you’re an industry expert.
 Use your company’s blog posts to opine on current industry topics, humanize your company, and show how your products and services can help people.
-logo for website near me , blue nonbinary being, made by DALL-E
-Contact
 Gear Collective
 123 Example Rd
 Scottsdale, AZ 85260
 Office Phone
 (555) 555-5555
-Contact
 email@example.com
-(555) 555-5555
 Website
 [caption id="attachment_4522" align="alignnone" width="300"]
 illustration of a local business, modern design, for the web, cute, happy, 4k, high resolution, trending in youtube[/caption]
-
 Introducing ai-architects' website, the cutting-edge website solution powered by AI tools, designed to revolutionize your online presence. With its innovative automation features, [Product Name] ensures top-notch SEO, dynamic content generation, and lightning-fast speed on cell phones. Elevate your digital experience today!
-
 Key Features:
-
 1. AI-Powered SEO: Say goodbye to manual SEO efforts. [Product Name] leverages advanced AI tools to optimize your website for search engines, boosting your online visibility and driving organic traffic.
-
 2. Dynamic Content Generation: Never run out of fresh and engaging content. Our AI-driven platform generates high-quality, relevant, and captivating content to keep your website up-to-date and your audience engaged.
-
 3. Lightning-Fast Mobile Experience: Your website will load with lightning speed on cell phones, ensuring a seamless and enjoyable browsing experience for your mobile users.
-
 4. Customizable Templates: Choose from a wide range of professionally designed templates, all customizable to suit your brand and vision perfectly. Create a stunning website in just a few clicks.
-
 5. Automation at Its Finest: Save time and effort with our automated processes. From content updates to SEO optimizations, [Product Name] handles it all, allowing you to focus on what matters most - your business.
-
 6. User-Friendly Interface: Our intuitive interface makes managing your website a breeze. No technical expertise required; effortlessly navigate through features and settings.
-
 7. Performance Analytics: Track your website's performance with detailed analytics. Gain valuable insights into user behavior and make data-driven decisions to improve your online strategy.
-
 8. Expert Support: Our team of experts is always at your service. Reach out for any assistance or guidance, and we'll be delighted to help you every step of the way.
-
 Unlock the true potential of your website with [Product Name]. Experience the power of AI-driven automation, unparalleled SEO, and mobile speed that sets new industry standards. Take the leap into the future of web development today!
-
-
 Weekly blog updates help SEO.
 Because we are using AI, this means very affordable for you.
 You can sign up for our subscripton service and we will autogenerate content for you so your site continues to rank.
@@ -548,56 +362,33 @@ Suscipit taciti primis tempor sagittis euismod libero facilisi aptent elementum 
 Pretium lorem primis senectus habitasse lectus scelerisque donec ultricies tortor adipiscing fusce morbi volutpat pellentesque consectetur risus molestie curae malesuada. Dignissim lacus convallis massa mauris enim mattis magnis senectus montes mollis taciti phasellus accumsan bibendum semper blandit suspendisse faucibus nibh metus lobortis morbi cras magna vivamus per risus fermentum. Dapibus imperdiet praesent magnis parturient.
 Intelligent Chatbots
 Empowering Local Businesses with AI-Boosted Intelligent Chatbots
-
 Product Description:
 Our AI-Boosted Websites are the ultimate solution for local business owners who aspire to compete with larger corporations and tech companies that leverage AI technology. By combining the power of cutting-edge AI and user-friendly web development, we provide an affordable and efficient way to enhance your online presence.
-
-Key Features:
-
 Intelligent Chatbot Integration: Stand out from the competition with an integrated AI-powered chatbot. Engage your website visitors in real-time, answer their questions, and provide personalized assistance 24/7.
-
 Tailored for Local Businesses: Our websites are designed to cater specifically to the needs of local businesses, helping you connect with your community and attract more customers.
-
 Seamless User Experience: Enjoy a user-friendly interface and intuitive navigation. Your customers will find it easy to interact with your website and access the information they need.
-
 Mobile Responsive: Reach customers on the go with mobile-responsive design. Your website will look stunning and function flawlessly across all devices, including smartphones and tablets.
-
 AI Optimization: Leverage AI technology to optimize your website for search engines, driving more organic traffic and improving your online visibility.
-
 Quick Turnaround: We understand the urgency of getting your business online promptly. Our efficient processes ensure fast delivery without compromising on quality.
-
 Expert Support: Our team of web development and AI specialists is at your service, providing guidance, support, and answering any questions you may have.
-
 Empower your local business with the cutting-edge technology that was once exclusive to larger corporations and tech giants. With our AI-Boosted Websites and integrated chatbot feature, you can enhance customer engagement, streamline operations, and stay ahead in the digital age. Embrace the power of AI and unlock new opportunities for your business today!
 Website + Trained Chatbot
 We build your AI-powered, AI-SEO-driven website for $500.
 We add a chatbot for $100 + $30/month to access your openAI (chatGPT) key.
 We train your chatbot 1 time, which covers the majority of likely questions users will have after visiting your website.
-
 Your website will have a landing page, contact us page, and products page.
-
 If you want other things on your page (such as a shopping cart, content, etc, please book an appt with us at $60/1 hour so we can answer your questions).  Prior to the appointment, we will send you a list of questions so that we are both prepared to make best use of the 1 hour.  Depending on volume of sales and your specific requests, we reserve the right to kindly refuse projects.
 Custom Styles
 {"version": 2, "isGlobalStylesUserThemeJSON": true }
 Home Demo -- client-upload
-HIRE US
-main product/service 1
-main product/service 2
-main product/service 3
-Some Comments About Your Store Or Product
 Explain what makes you great!  If you can't think of content, we can generate it for you.   This should be about 5 sentences long.  The amount of words on your landing page helps your SEO.  We want to use 1 main words about 7 times on your landing (home) page.
 EXAMPLES OF
 PRODUCTS OR SERVICES
 TELL ME MORE
-TELL ME MORE
 VIEW MENU
-CONTENT THAT BOOSTS SEO - WE CAN GENERATE THIS FOR YOU
 Newsletters are optional
 but highly recommended.  We can generate these for you.
-Receive exclusive offers and discounts by joining our email list.
-You can sign up for a newsletter generation subscription.  We use AI to automate newsletter generation, it is highly recommended that you review the content before agreeing to it.  We can also manage sending out the content for you.
 Sign up for our newsletter
-[RM_Form id='4']
 SEO Empowers Small Businesses Using AI
 In the age of artificial intelligence (AI), small businesses are constantly seeking innovative ways to stay ahead of the competition and unlock success. One powerful tool that has been revolutionizing the digital landscape is search engine optimization (SEO). By cracking the code and harnessing the potential of SEO, small businesses can catapult themselves to new heights in the AI era. In this article, we will explore how SEO can skyrockets small businesses and serve as the secret sauce for their success.
 "Cracking the Code: How SEO Skyrockets Small Businesses in the AI Era!"
@@ -610,7 +401,6 @@ As the AI era continues to evolve, small businesses must adapt and leverage the 
 There is no one answer to the question of how AI and SEO interact. Rather, it depends on the specific context and situation. In some cases, AI can help improve SEO by providing better insights into organic search traffic and how to improve the ranking of a website on search engines. Conversely, AI can also help improve SEO by automating the process of finding and analyzing data about a website's performance on search engines.
 Newsletter subscription
 Subscribe to receive insider tips on advantages of using AI for your business' online presence and more!
-[RM_Form id='4']
 Main Menu
 Refunds & Returns/ Terms of Service
 Welcome to
@@ -647,7 +437,6 @@ Having this data is valuable for understanding your customer needs as well as up
 Services -- client-upload
 Our Services
 You can list up to 5 services/products categories and 2 images
-.
 You can have up to 2 pictures because SEO penalizes more pictures.
 You can submit a changing gif and submit it as 1 of your 2 images (example under service 2).
 We will use a restaurant as an example.
@@ -661,14 +450,9 @@ Description - text
 Service 2 text
 example of animated gif as 1 of 2 images
 Service 3
-Description - text
 Service 3 text
 Service 4
-Description - text
 Service 4 text
-Service 5
-DRINKS MENU
-Description - text
 Service 5 text
 The drinks menu at the Mexicana restaurant is ...
 Ensalada $2.99/each
@@ -676,100 +460,27 @@ Mariscos $10.00/each
 Services Layout Option 1
 Main Content
 Skip to content
-Description about what your business is about.
-Ex: Fast websites, fast!
-HIRE US
 MAIN PRODUCT/SERVICE 1
 OUR EX1: WEBSITE DESIGN
-Initial website, same template as this site
-1 design + hosting and domain (godaddy or transferred to godaddy)= ~$550
-AI-powered SEO initial setup
-$0, included
-multilingual
-$0, included
-chatbot + maintenance
-NOT INCLUDED
-Website design
 MAIN PRODUCT/SERVICE 2
 OUR EX2: CHATBOTS FOR OUR WEBSITES
-Website + 1 site-specific chatbot
-$100 * 1 time, chatbot setup, $20/month chatGPT subscription
-Train model with AI-generated + your questions & answers
-$100/ training round
-Multiple chatbots with different personalities/ purposes
-$100 each
-Connect chatbot to your existing website (i.e., we did not build your website)
-Please contact us with specifics, these start at $500/each and we reserve the right to say no
-Chatbot types and prices
 MAIN PRODUCT/SERVICE 3
 EX3: SUBSCRIPTIONS
-monthly site health + maintenance + minor updates + 3 emergency updates
-$50/month
-monthly site health + maintenance + minor updates + 1 emergency update/week
-$250/month
-emergency update
-$50
-content generation- 4 posts, 1 per week
-$100/month
-Subscriptions and prices
-Some Comments About Your Store Or Product
 Explain what makes you great! We suggest allowing us to modify this content using AI powered tools, but it’s ok if you want to keep your original content, too.
-Our example:
-Welcome to WebSiteNearMe.Online, your local partner in creating digital solutions to help your business thrive in the AI revolution.
 We provide an array of services, from crafting the initial layout of your website to continuous updates aimed at promoting your site’s Google and Internet rankings. We aspire to empower local businesses to compete against both small and large enterprises by leveraging the power of AI to help ensure your business tops every search list.
-EXAMPLES OF PRODUCTS OR SERVICES
-EX1: CHANGE YOUR BREAKS
 Our EX1: WEBSITE DESIGN
-BUY WEBSITE
-We build websites that not only look good but also serve a purpose. Our web development process ensures your site is functional, user-friendly, and aligned with your brand.
-GET FREE SEO
 Your website’s visibility on search engines matters. We use the best practices in the industry to boost your site’s ranking and increase organic traffic.
-BUY WEBSITE + CHATBOT
 In the rapidly evolving digital world, chatbots have emerged as a game-changing tool. Chatbots are AI-powered assistants that interact with users in a human-like manner. They’re efficient, available 24/7, and can handle multiple customer queries simultaneously.
 CONTENT THAT BOOSTS SEO – WE CAN GENERATE THIS FOR YOU
-SEO Empowers Small Businesses Using AI
 July 30, 2023
-Helpful Tips to Rank Higher in Website Near Me Searches
 July 26, 2023
 February 1, 2021
-Topics generated by AI, chatGPT
-February 1, 2021
-Weekly blog updates help SEO.
-February 1, 2021
 Newsletters are optional but highly recommended. We can generate these for you.
-Receive exclusive offers and discounts by joining our email list.
 You can sign up for a newsletter generation subscription. We use AI to automate newsletter generation, it is highly recommended that you review the content before agreeing to it. We can also manage sending out the content for you.
-Sign up for our newsletter!
-websitenearme.online
 REMOTE WORKERS
 EL PASO, TX
-PH 9156032050
 © WEBSITE BY
 HTTPS://AI-ARCHITECTS.CLOUD
 ORDER OUR SERVICES
-Upon receipt of
-payment
-, you will fill out a form that will give us the information to implement your website.  Your website will follow
-this basic template.
-Here is a YouTube video explaining what we need.
-Go to
-Shopping Cart
 WHAT TO EXPECT
-Fast websites, fast!
-This is a simple process that we have automated and streamlined so we can bring you, our beloved local businesses, the same advantage that the nerds in Silicone Valley have been using to get ahead for years.
-With the power of Artificial Intelligence and our knowledge of Data Science, Computer Science, Software Development, Business, SEO, and more, we can offer you the same benefits we are enjoying at a fair price.
-You simply have to provide us with the pictures, text and logo that you want us to use, and we do the rest.
-Once you send us the text and images either by phone, email or online, and pay half the cost of building your website via our purchase orders,  we will guide you through the domain name selection via GoDaddy.
-Depending on the domain you want, this can cost between $12/year to thousands/year.  You will pay GoDaddy directly and we will then use our Pro Account to share savings of using their services via our cPanel.
-(If you wish to use your own cPanel, we do not provide support for this and encourage you to reach out to GoDaddy.
-)
-Building your website will take us no more than 3 days, and if you select a trained chatbot, after the 3 days, the website will be live and your trained chatbot will be available within 48 hours  after you provide us the training data.
-The training data is simply your answers to specific AI-generated questions about your website.
 REFUNDS AND RETURNS
-We do not provide refunds, but we do allow you to exit your contract if you are not satisfied with your product after the initial setup.  Therefore, if you were building a basic website that cost $500, you would pay us $250 and if you chose to not keep the website, you would not be responsible for the other $250 and we would release your GoDaddy domain and remove any code we had generated.  You would be responsible for your account with GoDaddy, and we will make sure you receive your keys in case you would want to find another web developer.  We would keep the $250 for our time, labor and resources.  However, we think you will love your website!  Because we have been doing this for over 20 years, we have refined the art of scoping your website so that you are perfectly clear about what you will be ultimately paying for and we will both have copies of the exact images and text you asked us to post on your site, so we will always have transparency and data to fall back on in case questions arise.
-What if you need more help/ guidance?
-We are happy to help you further, in which case we ask you to book an appointment here.  We will send you a list of questions prior to your appointment so that we can both be prepared and make best use of the scheduled time, as these cost $60/hour.
-We will get back to you ASAP
-https://ai-architects.cloud
-help@ai-architects.cloud
-(915)603-2050

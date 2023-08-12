@@ -41,7 +41,7 @@ def save_content_to_file(content: List[str], namespace: str) -> str:
     :param namespace: Namespace to determine the directory and filename.
     :return: Path to the saved file.
     """
-    directory = os.path.join('website_content', namespace)
+    directory = os.path.join('data/processed/website_content', namespace)
     content_file_path = os.path.join(directory, f'scraped_{namespace}.txt')
 
     if not os.path.exists(directory):
@@ -77,7 +77,7 @@ def find_xml_file(name_space: str) -> str:
     :param name_space: Namespace to search for.
     :return: Name of the matching XML file.
     """
-    files = os.listdir('raw_data')
+    files = os.listdir('data/raw_data')
     matching_files = [f for f in files if name_space in f and f.endswith('.xml')]
 
     if matching_files:
@@ -109,7 +109,7 @@ def make_content_file(url: str) -> Optional[Tuple[str, str]]:
     exclusions = ["excluded_domain1.com", "excluded_domain2.com"]
 
     xml_file_name = find_xml_file(file_identifier)
-    xml_file_path = os.path.join('raw_data', xml_file_name)
+    xml_file_path = os.path.join('data/raw_data', xml_file_name)
 
     if not os.path.exists(xml_file_path):
         print(f"File {xml_file_path} not found!")

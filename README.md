@@ -33,6 +33,7 @@ Get the data from wordpress site using Tools > Export
 
 # Step 3. 
 Convert the raw xml data to text using xml_content_parser.py 
+- if it is a wodpress site, it removes URLs, repetitive content, CSS content, WordPress shortcodes. 
 
 # Step 4. 
 clean the xml data using data_cleansing.py

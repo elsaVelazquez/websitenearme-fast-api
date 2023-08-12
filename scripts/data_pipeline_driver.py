@@ -3,9 +3,9 @@ Runs the full end-to-end generation of content to
 Pinecone DB vector insertion and produces sample outputs.
 """
 
-from scripts.xml_content_parser import make_content_file
-from scripts.data_cleanser import create_cleansed_file
-from scripts.upsert_pinecone_data_script import upsert_to_pinecone
+from xml_content_parser import make_content_file
+from data_cleanser import create_cleansed_file
+from upsert_pinecone_data_script import upsert_to_pinecone
 
 PREFIX_CLEAN = 'clean_'
 WP_TERMS = ["/wp:heading", "/wp:paragraph", "/wp:table", "/wp:image", "wp:generateblocks/container"]
@@ -18,7 +18,7 @@ def main():
     Orchestrates the scraping of a website, cleansing of the data, 
     and upserting the data into Pinecone.
     """
-    url = 'https://ai-architects.cloud'
+    url = 'https://websitenearme.online' #https://ai-architects.cloud'
     
     # Extract and save content from the website
     name_space, content_file_path = make_content_file(url)

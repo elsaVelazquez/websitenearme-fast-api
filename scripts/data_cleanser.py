@@ -72,6 +72,24 @@ def remove_html_tags_and_comments(content: str) -> str:
     return soup.get_text(separator="\n", strip=True)
 
 
+def remove_duplicates(content):
+    seen = set()
+    result = []
+
+    for line in content.splitlines():
+        if line not in seen:
+            seen.add(line)
+            result.append(line)
+
+    return "\n".join(result)
+
+
+def remove_css_block(content, start_comment, end_comment):
+    # Regular expression pattern to match content between start and end comments
+    pattern = re.compile(re.escape(start_comment) + ".*?" + re.escape(end_comment), re.DOTALL)
+    return re.sub(pattern, '', content)
+
+
 def create_cleansed_file(input_file: str, PREFIX_CLEAN: str, WP_TERMS: List[str], STOP_WORDS: List[str], name_space: str) -> str:
     """
     Cleanses the input file content based on given terms and stop words.
@@ -99,18 +117,21 @@ def create_cleansed_file(input_file: str, PREFIX_CLEAN: str, WP_TERMS: List[str]
 
     no_html_content = remove_html_tags_and_comments(filtered_content)
     
+    no_dups = remove_duplicates(no_html_content)
+    
+    no_css_block = remove_css_block(no_dups, '/* GeneratePress Site CSS */', '/* End GeneratePress Site CSS */')
+    
     # Derive the output file path based on the desired structure
     output_file_name = f"{PREFIX_CLEAN}{os.path.basename(input_file).replace('scraped_', '').replace('.xml', '.txt')}"
-    output_dir = os.path.join("website_content", name_space)
+    output_dir = os.path.join("data/processed/website_content", name_space)
     os.makedirs(output_dir, exist_ok=True)
     output_file_path = os.path.join(output_dir, output_file_name)
     
-    save_to_file(no_html_content, output_file_path)
+    save_to_file(no_css_block, output_file_path)
 
     print(f"Cleaned content saved to {output_file_path}")
     return output_file_path
 
 
 if __name__ == "__main__":
-    cleaned_file_path = create_cleansed_file(input_file, PREFIX_CLEAN, WP_TERMS, STOP_WORDS)
-
+    cleaned_file_path = create_cleansed_file(input_file, PREFIX_CLEAN, WP_TERMS, STOP_WORDS, name_space)
