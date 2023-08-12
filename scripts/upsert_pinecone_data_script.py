@@ -339,7 +339,8 @@ def upsert_data_to_pinecone(index: Any, text: List[Dict[str, Any]], name_space) 
         # upsert to Pinecone
         # index.upsert(vectors=to_upsert)
         # Use the 'pinecone_index' object to upsert the vectors
-        pinecone_index.upsert(vectors=to_upsert, 
+        pinecone_index.upsert(vectors=to_upsert, namespace)
+
 import tiktoken
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from uuid import uuid4
@@ -453,14 +454,9 @@ def upsert_data_to_pinecone(index: Any, text: List[Dict[str, Any]], name_space) 
         # upsert to Pinecone
         # index.upsert(vectors=to_upsert)
         # Use the 'pinecone_index' object to upsert the vectors
-        pinecone_index.upsert(vectors=to_upsert, namespace)
+        pinecone_index.upsert(vectors=to_upsert, name_space)
     print(f'all vectors upserted to pinecone under index {index} for namespace {name_space}'))
-    print(f'all vectors upserted to pinecone under index {index} for namespace {name_space}')
-    
-    )
-    print(f'all vectors upserted to pinecone under index {index} for namespace {name_space}')
-    
-    
+
 
 def create_all_sentences_lst(sentences_file_path: str) -> List[str]:
     """
