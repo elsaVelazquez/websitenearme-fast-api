@@ -1,14 +1,21 @@
 import os
 import requests
-from datetime import datetime
+# from datetime import datetime
 import pinecone
 from dotenv import load_dotenv
-from sentence_transformers import SentenceTransformer
-from transformers import AutoTokenizer
+# from sentence_transformers import SentenceTransformer
+# from transformers import AutoTokenizer
 from tqdm.auto import tqdm
 from typing import List, Tuple, Dict, Any
 from tqdm.auto import tqdm
 from time import sleep
+
+import tiktoken
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from uuid import uuid4
+from tqdm.auto import tqdm
+tiktoken.encoding_for_model('gpt-3.5-turbo')
+import openai
 
 import requests
 from requests.packages.urllib3.util.ssl_ import create_urllib3_context
@@ -39,14 +46,6 @@ def configure_requests() -> None:
     requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = CIPHERS
     requests.packages.urllib3.util.ssl_.create_default_context = requests.packages.urllib3.util.ssl_.create_urllib3_context
 
-
-import tiktoken
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from uuid import uuid4
-from tqdm.auto import tqdm
-tiktoken.encoding_for_model('gpt-3.5-turbo')
-import openai
-import pinecone
 
 # upsert using tiktoken
 def upsert_data_to_pinecone(index: Any, text: List[Dict[str, Any]], name_space) -> None:
